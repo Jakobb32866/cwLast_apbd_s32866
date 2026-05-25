@@ -1,6 +1,6 @@
 namespace cwLast_apbd_s32866.Exceptions;
 
-public class NotFoundException
+public class NotFoundException : Exception
 {
-    
+    public NotFoundException(string message) : base(message) { }
 }
